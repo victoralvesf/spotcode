@@ -2,6 +2,10 @@
 
 ```bundle install```
 
+### Install node modules
+
+```npm install``` or ```yarn```
+
 ### Seed files
 
 Download the album covers and song files (No Copyrights):  
