@@ -1,24 +1,26 @@
-# README
+### Install gems
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```bundle install```
 
-Things you may want to cover:
+### Seed files
 
-* Ruby version
+Download the covers and song files:  
+[download](https://drive.google.com/file/d/1M2ZQ78OStt6ORb7x-u7r-VCG3NaymAS6/view?usp=sharing)
 
-* System dependencies
+Extract the ```seed_files``` folder and move to ```tmp``` folder.
 
-* Configuration
+### Creating database
 
-* Database creation
+```rails db:create```
 
-* Database initialization
+### Running the migrations
 
-* How to run the test suite
+```rails db:migrate```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Running the seeds
 
-* Deployment instructions
+```rails db:seed```
 
-* ...
+### Starting the server
+
+```rails server``` or ```rails s```
